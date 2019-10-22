@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
+    background: #EBDDBF;
+    color:#FFA8FB;
 
 }
 
@@ -25,4 +27,8 @@ p, th, ul {
     font-family: Times, serif;
     font-weight: bold;
     border: orange 5px solid;
+}
+
+p::first-line {
+    font-size: 2em;
 }
