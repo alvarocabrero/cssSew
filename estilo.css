@@ -10,8 +10,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
-    background: #FFA8FB;
-    color: #AA68B0;
+    background: #222222;
+    color: #D4D2D3;
 
 }
 
@@ -23,12 +23,12 @@ h2, h4, h6 {
     font-style: italic;
 }
 
-p, th, ul {
+p, td, ul {
     font-family: Times, serif;
     font-weight: bold;
-    border: orange 5px solid;
-    background: #AA68B0;
-    color: #FDD149;
+    border: #383838 5px solid;
+    background: #0F0F0F;
+    color: #818181;
 }
 
 p::first-letter {
