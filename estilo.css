@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-size: 1.3em;
     background: #EBDDBF;
-    color:#FFA8FB;
+    color: #FFA8FB;
 
 }
 
@@ -27,6 +27,8 @@ p, th, ul {
     font-family: Times, serif;
     font-weight: bold;
     border: orange 5px solid;
+    background: #B5FFC8;
+    color: #A399E8;
 }
 
 p::first-line {
