@@ -6,12 +6,16 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-image: url("multimedia/fondo.png")
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
-    background: #AA68B0;
-    color: #FFA8FB;
+    background: #FFA8FB;
+    color: #AA68B0;
 
 }
 
@@ -27,10 +31,10 @@ p, th, ul {
     font-family: Times, serif;
     font-weight: bold;
     border: orange 5px solid;
-    background:#AA68B0;
+    background: #AA68B0;
     color: #FDD149;
 }
 
-p::first-letter{
+p::first-letter {
     font-size: 2em;
 }
