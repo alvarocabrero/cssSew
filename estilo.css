@@ -29,6 +29,11 @@ p, td, th, ul {
     color: #818181;
 }
 
+a {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+}
 
 p::first-letter {
     font-size: 2em;
