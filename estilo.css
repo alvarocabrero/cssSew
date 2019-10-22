@@ -27,8 +27,8 @@ p, th, ul {
     font-family: Times, serif;
     font-weight: bold;
     border: orange 5px solid;
-    background: #FDD149;
-    color: #AA68B0;
+    background:#AA68B0;
+    color: #FDD149;
 }
 
 p::first-letter{
