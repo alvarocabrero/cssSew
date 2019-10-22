@@ -2,6 +2,6 @@
 body {
     background-image: url("multimedia/fondo.png");
     background-repeat: no-repeat;
-    background-color: grey;
+    color: grey;
     background-size: cover;
 }

@@ -1,6 +1,4 @@
 h1 {
-    background-color: #FF5733;
-    color: #fff;
     text-transform: uppercase;
     padding: 100px 25px;
     text-align: center;
@@ -23,13 +21,14 @@ h2, h4, h6 {
     font-style: italic;
 }
 
-p, td, ul {
+p, td, th, ul {
     font-family: Times, serif;
     font-weight: bold;
     border: #383838 5px solid;
     background: #0F0F0F;
     color: #818181;
 }
+
 
 p::first-letter {
     font-size: 2em;
