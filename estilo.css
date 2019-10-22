@@ -6,10 +6,6 @@ h1 {
     text-align: center;
 }
 
-body {
-    background-image: url("multimedia/fondo.png")
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
