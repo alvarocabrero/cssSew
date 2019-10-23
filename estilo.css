@@ -40,7 +40,10 @@ p, td, th, ul {
 a:visited {
     text-decoration-style: dotted;
 }
-
+a:link{
+    display: inline-block;
+    padding: 10px;
+}
 a {
     display: inline-block;
     padding: 10px;
