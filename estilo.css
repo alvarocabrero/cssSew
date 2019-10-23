@@ -37,14 +37,36 @@ p, td, th, ul {
     justify-content: flex-start;
 }
 
-a:visited {
-    text-decoration-style: dotted;
-}
-
 a {
     display: inline-block;
     padding: 10px;
+
 }
+
+a:link {
+    color: #D4D2D3;
+    text-decoration-style: solid;
+}
+
+ul > li {
+    border: #383838 5px solid;
+    background: #0F0F0F;
+    color: #818181
+}
+
+
+
+tr > th {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+a:visited {
+    background: #0F0F0F;
+    color: #818181;
+    text-decoration-style: dotted;
+}
+
 
 p::first-letter {
     font-size: 2em;
