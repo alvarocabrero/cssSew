@@ -1,3 +1,41 @@
+header {
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+@media all and (min-width: 800px) {
+
+    footer {
+        order: 4;
+    }
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+nav {
+
+    margin: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
@@ -48,23 +86,21 @@ a:link {
     text-decoration-style: solid;
 }
 
+a:visited {
+    background: #0F0F0F;
+    color: blue;
+    text-decoration-style: dotted;
+}
+
 ul > li {
     border: #383838 5px solid;
     background: #0F0F0F;
     color: #818181
 }
 
-
-
 tr > th {
     background: #FFFFFF;
     color: #000000;
-}
-
-a:visited {
-    background: #0F0F0F;
-    color: #818181;
-    text-decoration-style: dotted;
 }
 
 
