@@ -1,19 +1,20 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 3em;
     background: #222222;
     color: #D4D2D3;
     padding: 25px 50px 75px 100px;
     margin: 25px 50px 75px 100px;
+    text-align: center;
     align-content: center;
     text-transform: uppercase;
-
+    border-radius: 2em;
 }
 
 h1 {
     letter-spacing: 2em;
-    border-radius: 2em;
+    border-radius: 3em;
 }
 
 h1, h3, h5 {
@@ -25,19 +26,24 @@ h2, h4, h6 {
 }
 
 p, td, th, ul {
-    font-family: Times, serif;
+    font-family: "Helvetica Neue", serif;
     font-weight: bold;
     border: #383838 5px solid;
     background: #0F0F0F;
     color: #818181;
+    font-size: 2em;
+    text-align: center;
     align-content: center;
     justify-content: flex-start;
+}
+
+a:visited {
+    text-decoration-style: dotted;
 }
 
 a {
     display: inline-block;
     padding: 10px;
-    border: 1px solid black;
 }
 
 p::first-letter {
