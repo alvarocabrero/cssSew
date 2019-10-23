@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.3em;
     background: #222222;
     color: #D4D2D3;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 
 }
 
