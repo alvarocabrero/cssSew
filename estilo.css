@@ -1,20 +1,19 @@
-h1 {
-    text-transform: uppercase;
-    padding: 100px 25px;
-    text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
     background: #222222;
     color: #D4D2D3;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding: 25px 50px 75px 100px;
+    margin: 25px 50px 75px 100px;
+    align-content: center;
+    text-transform: uppercase;
 
+}
+
+h1 {
+    letter-spacing: 2em;
+    border-radius: 2em;
 }
 
 h1, h3, h5 {
@@ -31,6 +30,8 @@ p, td, th, ul {
     border: #383838 5px solid;
     background: #0F0F0F;
     color: #818181;
+    align-content: center;
+    justify-content: flex-start;
 }
 
 a {
