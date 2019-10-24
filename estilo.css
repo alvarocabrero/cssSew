@@ -7,13 +7,24 @@ header {
     width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 75%;
+    }
+}
 
 /*a=0 b=0 c=1*/
 body {
     display: flex;
     flex-flow: row wrap;
     min-height: 100vh;
-    max-width: 75vw;
+
 }
 
 /*a=0 b=0 c=1*/
