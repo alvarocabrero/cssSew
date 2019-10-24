@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 /*a=0 b=0 c=1*/
 h1 {
     letter-spacing: 2em;
-    border-radius: 3em;
+
 }
 
 /*a=0 b=0 c=1*/
@@ -88,6 +88,7 @@ section {
 
 /*a=0 b=1 c=1*/
 a:link {
+    background-color: #0F0F0F;
     color: #D4D2D3;
     text-decoration-style: solid;
 }
