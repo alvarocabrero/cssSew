@@ -4,25 +4,32 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
 }
+
 
 /*a=0 b=0 c=1*/
 body {
     display: flex;
     flex-flow: row wrap;
+    min-height: 100vh;
+}
+
+/*a=0 b=0 c=1*/
+footer {
+    width: 100%;
 }
 
 /*a=0 b=0 c=1*/
 ul {
     margin: 0;
-    padding: 0;
     list-style-type: none;
 }
 
 /*a=0 b=0 c=1*/
 li {
     display: inline-block;
-    margin-right: 20px;
+
 }
 
 /*a=0 b=0 c=1*/
@@ -43,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     align-content: center;
     text-transform: uppercase;
     border-radius: 2em;
+
 }
 
 /*a=0 b=0 c=1*/
@@ -65,7 +73,7 @@ h2, h4, h6 {
 p, td, th, ul {
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
-    border: #383838 5px solid;
+
     background: #0F0F0F;
     color: #818181;
     font-size: 2em;
@@ -82,8 +90,20 @@ a {
 /*a=0 b=0 c=1*/
 section {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+
+}
+
+/*a=0 b=0 c=2*/
+section > video {
+    align-self: center;
+}
+
+/*a=0 b=0 c=2*/
+section > audio {
+    align-self: center;
 }
 
 /*a=0 b=1 c=1*/
