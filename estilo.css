@@ -91,7 +91,7 @@ p, td, th, ul {
 
 /*a=0 b=0 c=1*/
 a {
-    padding: 10px;
+    color: white;
 }
 
 /*a=0 b=0 c=1*/
@@ -142,5 +142,5 @@ tr > th {
 
 /*a=0 b=0 c=2*/
 p::first-letter {
-    font-size: 2em;
+    font-size: 1.7em;
 }
