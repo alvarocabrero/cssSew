@@ -12,7 +12,8 @@ header {
 body {
     display: flex;
     flex-flow: row wrap;
-    min-height: 50vh;
+    min-height: 100vh;
+    min-witdh: 75vw;
 }
 
 /*a=0 b=0 c=1*/
