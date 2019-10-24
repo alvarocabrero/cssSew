@@ -11,6 +11,7 @@ header {
     /*a=0 b=0 c=1*/
     body {
         width: 100%;
+
     }
 }
 
@@ -26,7 +27,8 @@ body {
     display: flex;
     flex-flow: row wrap;
     min-height: 100vh;
-
+    justify-content: center;
+    align-content: center;
 }
 
 /*a=0 b=0 c=1*/
