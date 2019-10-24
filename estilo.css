@@ -1,14 +1,15 @@
 /*a=0 b=0 c=1*/
 header {
     text-align: center;
-    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 /*a=0 b=0 c=1*/
 body {
     display: flex;
     flex-flow: row wrap;
-
 }
 
 /*a=0 b=0 c=1*/
@@ -22,12 +23,10 @@ ul {
 li {
     display: inline-block;
     margin-right: 20px;
-
 }
 
 /*a=0 b=0 c=1*/
 nav {
-
     margin: auto;
 }
 
@@ -77,9 +76,7 @@ p, td, th, ul {
 
 /*a=0 b=0 c=1*/
 a {
-
     padding: 10px;
-
 }
 
 /*a=0 b=0 c=1*/
