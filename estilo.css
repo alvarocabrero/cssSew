@@ -13,7 +13,7 @@ header {
         display: flex;
         flex-flow: row wrap;
         min-height: 100vh;
-        min-witdh: 75vw;
+        min-width: 75vw;
     }
 
 }
@@ -24,7 +24,7 @@ header {
         display: flex;
         flex-flow: row wrap;
         min-height: 100vh;
-        min-witdh: 75vw;
+        min-width: 75vw;
     }
 }
 
@@ -34,7 +34,7 @@ header {
         display: flex;
         flex-flow: row wrap;
         min-height: 100vh;
-        min-witdh: 75vw;
+        min-width: 75vw;
     }
 }
 
