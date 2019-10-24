@@ -12,20 +12,6 @@ main {
     width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-    /*a=0 b=0 c=1*/
-    body {
-        width: 100%;
-
-    }
-}
-
-@media screen and (min-width: 800px) {
-    /*a=0 b=0 c=1*/
-    body {
-        width: 75%;
-    }
-}
 
 /*a=0 b=0 c=1*/
 body {
