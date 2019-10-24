@@ -7,37 +7,14 @@ header {
     width: 100%;
 }
 
-@media screen and (max-width: 640px) {
-    /*a=0 b=0 c=1*/
-    body {
-        display: flex;
-        flex-flow: row wrap;
-        min-height: 100vh;
-        min-width: 75vw;
-    }
 
+/*a=0 b=0 c=1*/
+body {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    min-width: 75vw;
 }
-
-@media screen and (max-width: 1024px) and (min-width: 640px) {
-    /*a=0 b=0 c=1*/
-    body {
-        display: flex;
-        flex-flow: row wrap;
-        min-height: 100vh;
-        min-width: 75vw;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    /*a=0 b=0 c=1*/
-    body {
-        display: flex;
-        flex-flow: row wrap;
-        min-height: 100vh;
-        min-width: 75vw;
-    }
-}
-
 
 /*a=0 b=0 c=1*/
 footer {
