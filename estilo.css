@@ -48,7 +48,7 @@ nav {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2em;
     background: #222222;
     color: #D4D2D3;
     padding: 25px 50px 100px;
@@ -83,7 +83,7 @@ p, td, th, ul {
 
     background: #0F0F0F;
     color: #D4D2D3;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     align-content: center;
     justify-content: flex-start;
