@@ -1,53 +1,14 @@
 /*a=0 b=0 c=1*/
-header {
-    text-align: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;
+header > p {
+    color: #f58b54;
 
 }
-
-main {
-    width: 100%;
-}
-
 
 /*a=0 b=0 c=1*/
 body {
-    display: flex;
-    flex-flow: row wrap;
-    min-height: 100vh;
-    justify-content: center;
-    align-content: center;
-}
+    background-color: #a34a28;
+    color: #a34a28;
 
-/*a=0 b=0 c=1*/
-footer {
-    width: 100%;
-}
-
-/*a=0 b=0 c=1*/
-ul {
-    margin: 0;
-    list-style-type: none;
-}
-
-/*a=0 b=0 c=1*/
-li {
-    display: inline-block;
-
-}
-
-/*a=0 b=0 c=1*/
-header > p {
-    color: greenyellow;
-
-}
-
-/*a=0 b=0 c=1*/
-nav {
-    margin: auto;
 }
 
 /*a=0 b=0 c=1*/
@@ -55,19 +16,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 2em;
-    background: #222222;
-    color: #D4D2D3;
-    text-align: center;
-    align-content: center;
+    color: #dfddc7;
     text-transform: uppercase;
-    border-radius: 2em;
+
 
 }
 
 /*a=0 b=0 c=1*/
 h1 {
     letter-spacing: 2em;
-
+    background: #a34a28;
 }
 
 /*a=0 b=0 c=1*/
@@ -84,13 +42,10 @@ h2, h4, h6 {
 p, td, th, ul {
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
-
-    background: #0F0F0F;
-    color: #D4D2D3;
+    background: #a34a28;
+    color: #dfddc7;
     font-size: 1.5em;
-    text-align: center;
-    align-content: center;
-    justify-content: flex-start;
+
 }
 
 /*a=0 b=0 c=1*/
@@ -98,50 +53,38 @@ a {
     color: white;
 }
 
-/*a=0 b=0 c=1*/
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
-}
-
-/*a=0 b=0 c=2*/
-section > video {
-    align-self: center;
-}
-
-/*a=0 b=0 c=2*/
-section > audio {
-    align-self: center;
-}
-
 /*a=0 b=1 c=1*/
 a:link {
-    background-color: #0F0F0F;
-    color: #D4D2D3;
+    background: #f58b54;
+    color: #dfddc7;
     text-decoration-style: solid;
+}
+
+#menu li a {
+    font-family: Arial;
+    font-size: 23px;
+    text-decoration: none;
+    background: #f58b54;
+    color: #dfddc7;
 }
 
 /*a=0 b=1 c=1*/
 a:visited {
-    background: #0F0F0F;
-    color: blue;
+    background: #a34a28;
+    color: #f58b54;
     text-decoration-style: dotted;
 }
 
 /*a=0 b=0 c=2*/
 ul > li {
-    border: #383838 5px solid;
-    background: #0F0F0F;
-    color: #818181
+    background: #a34a28;
+    color: #f58b54;
 }
 
 /*a=0 b=0 c=2*/
 tr > th {
-    background: #FFFFFF;
-    color: #000000;
+    background: #a34a28;
+    color: #f58b54;
 }
 
 /*a=0 b=0 c=2*/

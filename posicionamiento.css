@@ -1,0 +1,83 @@
+/*a=0 b=0 c=1*/
+footer {
+    width: 100%;
+}
+
+#menu {
+    padding: 0;
+    align-self: flex-start;
+    width: 100%;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+
+    float: left;
+    padding: 10px;
+
+}
+
+/*a=0 b=0 c=1*/
+nav {
+    margin: fill;
+}
+
+/*a=0 b=0 c=1*/
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+/*a=0 b=0 c=2*/
+section > video {
+    align-self: center;
+}
+
+/*a=0 b=0 c=2*/
+section > audio {
+    align-self: center;
+}
+
+/*a=0 b=0 c=1*/
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+
+}
+
+/*a=0 b=0 c=1*/
+body {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+/*a=0 b=0 c=1*/
+header {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+
+}
+
+/*a=0 b=0 c=1*/
+main {
+    width: 100%;
+}
+
+/*a=0 b=0 c=1*/
+p, td, th, ul {
+    text-align: justify;
+    align-content: center;
+    justify-content: flex-start;
+}
