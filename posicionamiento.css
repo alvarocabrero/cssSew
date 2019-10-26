@@ -31,7 +31,7 @@ section {
 }
 
 /*a=0 b=0 c=2*/
-section > video, section > audio, aside > image {
+section > video, section > audio, aside > img {
     align-self: center;
 }
 
