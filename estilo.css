@@ -8,7 +8,7 @@ header > p {
 /*a=0 b=0 c=1*/
 body {
     background-color: #a34a28;
-    color: #a34a28;
+    color: black;
 }
 
 /*a=0 b=0 c=1*/
@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 2em;
+    background-color: #a34a28;
     color: #dfddc7;
     text-transform: uppercase;
 }
@@ -23,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 /*a=0 b=0 c=1*/
 h1 {
     letter-spacing: 2em;
-    background: #a34a28;
+    
 }
 
 /*a=0 b=0 c=1*/
@@ -40,6 +41,7 @@ h2, h4, h6 {
 p, td, th, ul {
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
+    background-color: #a34a28;
     color: #dfddc7;
     font-size: 1.5em;
 
@@ -47,6 +49,7 @@ p, td, th, ul {
 
 /*a=0 b=0 c=1*/
 a {
+    background-color: #a34a28;
     color: white;
 }
 
@@ -58,7 +61,7 @@ a:link {
 }
 
 #menu li a {
-    font-family: Arial;
+    font-family: Arial, serif;
     font-size: 23px;
     text-decoration: none;
     background: #f58b54;
@@ -80,6 +83,7 @@ ul > li {
 
 table {
     background: white;
+    color: black;
 }
 
 /*a=0 b=0 c=2*/
