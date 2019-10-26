@@ -1,17 +1,14 @@
 /*a=0 b=0 c=1*/
 header > p {
-
     background: #f58b54;
     color: black;
     text-align: center;
-
 }
 
 /*a=0 b=0 c=1*/
 body {
     background-color: #a34a28;
     color: #a34a28;
-
 }
 
 /*a=0 b=0 c=1*/
@@ -21,8 +18,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
     color: #dfddc7;
     text-transform: uppercase;
-
-
 }
 
 /*a=0 b=0 c=1*/
@@ -45,7 +40,6 @@ h2, h4, h6 {
 p, td, th, ul {
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
-    background: #a34a28;
     color: #dfddc7;
     font-size: 1.5em;
 
