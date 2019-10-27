@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 2em;
-    background-color: #f58b54;
+    background-color: black;
     color: #dfddc7;
     text-transform: uppercase;
 }
@@ -41,7 +41,7 @@ h2, h4, h6 {
 p, td, th, ul {
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
-    background-color: #f58b54;
+    background-color: black;
     color: #dfddc7;
     font-size: 1.5em;
 
