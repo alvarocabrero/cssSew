@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 /*a=0 b=0 c=1*/
 h1 {
     letter-spacing: 2em;
-    
+
 }
 
 /*a=0 b=0 c=1*/
@@ -59,6 +59,7 @@ a:link {
     color: black;
     text-decoration-style: solid;
 }
+
 /*a=1 b=0 c=2*/
 #menu li a {
     font-family: Arial, serif;
@@ -81,6 +82,7 @@ ul > li {
     color: black;
 }
 
+/*a=0 b=1 c=1*/
 table {
     background: white;
     color: black;
